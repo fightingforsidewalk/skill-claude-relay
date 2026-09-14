@@ -170,6 +170,6 @@ examples/
 
 ## License
 
-MIT. Take it, change the role names, keep the rules that earn their place and drop the ones
+CC0 1.0 Universal (public domain dedication). Take it, change the role names, keep the rules that earn their place and drop the ones
 that don't — and if you find a new way to lose a message, open an issue; that is how every
 rule here was written.
