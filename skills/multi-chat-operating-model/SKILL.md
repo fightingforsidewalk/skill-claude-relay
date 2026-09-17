@@ -35,7 +35,7 @@ another chat's pane only to consume a message addressed to it).
 **The handoff contract.** Review produces briefs. Build produces prompts. Compliance produces
 judgement. **No chat produces another chat's artifact.** A brief that contains a prompt, or a
 prompt that contains a legal ruling, is a role boundary being crossed — and the crossing is
-where mistakes hide, because nobody is checking that seam.
+where mistakes hide, because nobody is checking where the two meet.
 
 ## 2. State prohibitions as actions, not roles
 
@@ -75,7 +75,7 @@ marker in front-matter, some in a header line, some in a footer, and the one tha
 marker differently is the one that drifts.
 
 **A document sitting adjacent to a fact is not the fact.** A changelog entry is not the edit.
-A provenance record is not an authorship record. A comment citing an authority is not the
+A record of where something came from is not a record of who wrote it. A comment citing an authority is not the
 authority. When a document is offered as settling something, name the fact you need and ask
 whether the document *asserts* it or merely sits next to it.
 
