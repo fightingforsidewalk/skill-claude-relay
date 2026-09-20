@@ -2,8 +2,27 @@
 
 **A mailbox and an operating model for running one project across several Claude chats.**
 
+*Want it in your own project? Paste [`ADOPT.md`](ADOPT.md) into a Claude that can see the
+project and it sets itself up.*
+
 Plain Markdown. No server, no plugin, no API. Works in any folder every chat can read — an
 [Obsidian](https://obsidian.md) vault is the nicest home, but nothing depends on it.
+
+---
+
+## How this fits with the other two
+
+Three repositories, same work, different job:
+
+- **Coordination** — [claude-relay](https://github.com/fightingforsidewalk/skill-claude-relay): how several chats on one project reach each
+  other without you carrying the messages between them.
+- **The record** — [canonical-tracker](https://github.com/fightingforsidewalk/skill-canonical-tracker): one record as the truth, every derived
+  view patched from it, and a check that fails when they disagree.
+- **Execution** — [claude-code-discipline](https://github.com/fightingforsidewalk/claude-code-discipline): how a coding agent works on its own and
+  reports back in a form you can check without reading the diff.
+
+This repo is the coordination one. Each works on its own; together they cover a project from
+the first instruction to the last commit.
 
 ---
 
@@ -15,8 +34,8 @@ each with its own context, its own files, its own way of thinking. But chats can
 each other, so *you* become the courier: copying a message out of one window and pasting it
 into another, forty times a day, and quietly losing the ones you forgot.
 
-This repo is the fix that fell out of doing exactly that for a few months on a real product
-build — a solo founder, three specialised chats, a coding agent, and a launch to hit. Two
+This repo is the fix that fell out of doing exactly that on a real product build — a solo
+founder, three specialised chats, a coding agent, and a launch to hit. Two
 things came out of it that turned out to be worth sharing:
 
 1. **The open-pane relay** — a file-based mailbox where each chat has one outbox, messages
