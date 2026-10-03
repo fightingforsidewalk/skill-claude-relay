@@ -2,6 +2,8 @@
 
 **A mailbox and an operating model for running one project across several Claude chats.**
 
+> **There's a newer version.** [vault-relay](https://github.com/fightingforsidewalk/vault-relay) is a major revamp of this relay, rebuilt from the ground up: one file per message, receipts and automatic cleanup, guided setup, a tool that refuses unsafe edits, and a Claude plugin that keeps that tool up to date. It also works with any AI tool that can run a command, not just Claude. This repository stays here as the original, simpler version.
+
 *Want it in your own project? Paste [`ADOPT.md`](ADOPT.md) into a Claude that can see the
 project and it sets itself up.*
 
